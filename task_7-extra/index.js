@@ -17,7 +17,6 @@ class CarService {
     } else {
       const currentTime = new Date();
       const currentHours = currentTime.getHours();
-      console.log(this.workingHours);
       const workingHoursFrom = Number(this.workingHours.from.split(':')[0]);
       const workingHoursTill = Number(this.workingHours.till.split(':')[0]);
       // split(':') - делим строку на массив, символ который выступает самим делением указан в скобках
